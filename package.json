@@ -1,16 +1,16 @@
 {
-  "name": "sigma-node-express",
+  "name": "express-intro",
   "version": "1.0.0",
-  "description": "express lecture",
-  "main": "app.js",
+  "description": "Practicing express",
+  "main": "server.js",
   "scripts": {
-    "start" : "node server/app.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kris",
+  "author": "Ryan Mulcahy <mulchy81@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "jquery": "^3.1.1"
+    "express": "^4.14.0"
   }
 }
