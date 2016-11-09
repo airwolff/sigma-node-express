@@ -9,6 +9,7 @@ $(function () {
 		$.ajax({
 			type: 'POST',
 			url: '/songs',
+			async: false,
 			data: formData,
 			success: getSongs
 		});
