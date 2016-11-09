@@ -58,9 +58,6 @@ app.get('/songs', function (req, res) {
 // middleware for serving static files
 app.use(express.static('public'));
 
-app.listen(3000);
-
-
-
-
-// Before pushing to our array, add a property to the new song object for the dateAdded with the current date. You'll have to look up the Date object in javascript.
+app.listen(app.get('port'), function() {
+  console.log('Server is listening on port ' + app.get('port'));
+});
